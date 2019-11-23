@@ -7,7 +7,7 @@ function getLastRowInRange(range) {
   var data = range.getValues();
   for (var i = data.length - 1; i >= 0; i--) {
     if (data[i].toString().replace(/,/g, '').length !== 0) {
-      rowN = i + 1;
+      lastRow = i + 1;
       break;
     }
   }
