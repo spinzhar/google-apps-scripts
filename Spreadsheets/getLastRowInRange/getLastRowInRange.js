@@ -1,7 +1,7 @@
 /**
  * Returns the position of the last row that has content in the range.
  * @param {Object} range https://developers.google.com/apps-script/reference/spreadsheet/range
- */
+ **/
 function getLastRowInRange(range) {
   var lastRow = 0;
   var data = range.getValues();
